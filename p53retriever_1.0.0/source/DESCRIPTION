@@ -1,0 +1,13 @@
+Package: p53retriever
+Type: Package
+Title: detection and display of p53 putative response elements (REs) on DNA sequences
+Version: 1.0.0
+Date: 2015-02-02
+Author: Toma Tebaldi, Sara Zaccara, Yari Ciribilli, Alberto Inga 
+Maintainer: Toma Tebaldi <t.tebaldi@unitn.it>
+BugReports: https://github.com/tomateba/p53retriever/issues
+Depends: R (>= 3.0.1)
+Imports: Biostrings
+Description: p53retriever implements a pattern search algorithm that maps p53 response elements (REs) and ranks them according to predicted transactivation potentials in five classes. Besides canonical, full site REs, p53tracker contains specific pattern searches for non-canonical half sites and 3/4 sites. REs can be displayed along the input sequence in a graphical layout.   
+License: MIT
+URL: http://tomateba.github.io/p53retriever/
