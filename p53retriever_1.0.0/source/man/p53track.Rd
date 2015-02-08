@@ -19,4 +19,8 @@ A dataframe containing the responsive elements located on the input sequence. Fo
 \description{
 This function locates candidate p53 responsive elements on a DNA sequence. The rules formalized in this model are manually curated and based on observations obtained during several years of experiments using the yeast-based assays, including the results presented in (Inga et al, MCB 2002; Tomso et al, PNAS 2005; Jegga et al, PNAS 2008; Jordan et al, PloS Genetics 2008; Menendez et al, PNAS 2010).
 }
+\examples{
+data(CDKN1A)
+p53track(CDKN1A.promoter.seq,seqname="CDKN1A",plot=TRUE)
+}
 

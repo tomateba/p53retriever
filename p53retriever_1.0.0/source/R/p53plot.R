@@ -3,6 +3,10 @@
 #'@param p53.table A dataframe containing the responsive elements, as the one returned from the p53.track function. 
 #'@param start.at A numeric value indicating the start coordinate of the plot 
 #'@param stop.at A numeric value indicating the stop coordinate of the plot
+#' @examples
+#' data(CDKN1A)
+#' hits<-p53track(CDKN1A.promoter.seq,seqname="CDKN1A",plot=FALSE)
+#' p53plot(hits,0,20000)
 #'@export
 
 p53plot<-function(p53.table,start.at,stop.at){

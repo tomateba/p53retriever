@@ -3,6 +3,9 @@
 #'@param p53.table A dataframe containing the responsive elements, as the one returned from the p53.track function. 
 #'@param start.at A numeric value indicating the start coordinate of the plot 
 #'@param stop.at A numeric value indicating the stop coordinate of the plot
+#'@examples
+#'data(REs.collection)
+#'p53density(REs.collection,-10000,10000)
 #'@export
 
 p53density<-function(p53.table,start.at,stop.at){

@@ -16,4 +16,9 @@ p53plot(p53.table, start.at, stop.at)
 \description{
 Plot the position p53 responsive elements on a DNA sequence (the mark is placed at the beginning of the responsive element)
 }
+\examples{
+data(CDKN1A)
+hits<-p53track(CDKN1A.promoter.seq,seqname="CDKN1A",plot=FALSE)
+p53plot(hits,0,20000)
+}
 

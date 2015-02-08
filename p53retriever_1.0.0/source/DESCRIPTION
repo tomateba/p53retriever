@@ -12,4 +12,4 @@ Imports: Biostrings
 Description: p53retriever implements a pattern search algorithm that maps p53 response elements (REs) and ranks them according to predicted transactivation potentials in five classes. Besides canonical, full site REs, p53tracker contains specific pattern searches for non-canonical half sites and 3/4 sites. REs can be displayed along the input sequence in a graphical layout.   
 License: MIT
 URL: http://tomateba.github.io/p53retriever/
-Packaged: 2015-02-07 22:37:18 UTC; toma
+Packaged: 2015-02-08 13:40:50 UTC; toma

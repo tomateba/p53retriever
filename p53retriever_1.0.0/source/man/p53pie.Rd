@@ -16,4 +16,8 @@ p53pie(p53.table, start.at, stop.at)
 \description{
 Plot a pie chart of the grades assigned to responsive elements on a DNA sequence
 }
+\examples{
+data(REs.collection)
+p53pie(REs.collection,-10000,10000)
+}
 

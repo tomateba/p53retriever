@@ -16,4 +16,8 @@ p53density(p53.table, start.at, stop.at)
 \description{
 Plot the density chart of responsive elements on a DNA sequence
 }
+\examples{
+data(REs.collection)
+p53density(REs.collection,-10000,10000)
+}
 
