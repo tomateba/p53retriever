@@ -9,11 +9,9 @@ p53retriever is an R package implementing a pattern search algorithm that maps p
 
 The rules formalized in the model are based on observations obtained during several years of experiments using the yeast-based assays, including the results presented in (Inga et al MCB2002; Tomso et al, PNAS 2005; Jegga et al PNAS 2008; Jordan et al PloS Genetics 2008; Menendez et PNAS 2010).
 
-### Authors
-
-Toma Tebaldi, Sara Zaccara, Federica Alessandrini, Alessandra Bisio, Yari Ciribilli and Alberto Inga.
-
 ------------------------------------------------------------------------
+
+### Reference
 
 Please cite the following article when using `p53retriever`:
 
@@ -27,11 +25,15 @@ T Tebaldi, S Zaccara, F alessandrini, A Bisio, Y Ciribilli, A Inga. ***Whole-gen
 
 [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg?maxAge=2592000?style=flat)](https://opensource.org/licenses/MIT)
 
+------------------------------------------------------------------------
+
 ### Output example
 
 p53 REs identified in the promoter region of CDKN1A (-10k, +10k from TSS)
 
 ![p53 REs identified in the promoter of CDKN1A](https://cloud.githubusercontent.com/assets/9716233/6002270/c460ac18-aae9-11e4-8822-7f5272396634.png)
+
+------------------------------------------------------------------------
 
 ### Contact
 t.tebaldi@unitn.it
