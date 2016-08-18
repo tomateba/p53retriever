@@ -31,9 +31,9 @@ T Tebaldi, S Zaccara, F alessandrini, A Bisio, Y Ciribilli, A Inga. ***Whole-gen
 
 To install `p53retriever`, directly from github: 
 
-    'install.packages("devtools")'
-    'library("devtools")'
-    'install_github("tomateba/p53retriever")'
+    install.packages("devtools")
+    library("devtools")
+    install_github("tomateba/p53retriever")
 
 ------------------------------------------------------------------------
 
