@@ -4,7 +4,7 @@
 \name{CDKN1A}
 \alias{CDKN1A}
 \title{DNA sequence of the CDKN1A promoter}
-\format{A character vector containing the 20k promoter sequence of CDKN1A}
+\format{An object of class \code{character} containing the 20k promoter sequence of CDKN1A}
 \usage{
 data(CDKN1A)
 }

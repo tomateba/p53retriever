@@ -7,7 +7,7 @@
 p53s3q(seq.ini)
 }
 \arguments{
-\item{seq}{A character string containing the sequence. The sequence must be composed exclusively of DNA bases (a,c,t,g)}
+\item{seq.ini}{A character string containing the sequence. The sequence must be composed exclusively of DNA bases (a,c,t,g)}
 }
 \value{
 A dataframe containing the responsive elements located on the input sequence.

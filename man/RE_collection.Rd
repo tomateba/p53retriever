@@ -4,7 +4,7 @@
 \name{RE_collection}
 \alias{RE_collection}
 \title{p53 retriever results on a set of human promoters}
-\format{A data frame with 3062 rows and 17 variables:
+\format{An object of class \code{data.frame} with 3062 rows and 17 variables:
 \itemize{
 \item HGNC: gene symbol (e.g. TP73)
 \item ID: sequence ID (e.g. uc001akp.3)

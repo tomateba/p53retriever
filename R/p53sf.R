@@ -1,18 +1,9 @@
 #' Locate candidate p53 responsive elements (full and half) on a DNA sequence
 #' 
-#' @param seq A character string containing the sequence. The sequence must be composed exclusively of DNA bases (a,c,t,g)
+#' @param seq.ini A character string containing the sequence. The sequence must be composed exclusively of DNA bases (a,c,t,g)
 #' @return A dataframe containing the responsive elements located on the input sequence.
 #' @export 
 
-#---------------------------------
-# Helper function is.between
-#---------------------------------
-
-is.between <- function(x, a, b) {
-  x > a & x < b
-}
- 
-#--------------------------------
 # Halves and full matrix
 #--------------------------------
 

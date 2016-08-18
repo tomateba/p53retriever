@@ -1,6 +1,6 @@
 #' Locate candidate p53 responsive elements (3/4 sites) on a DNA sequence
 #' 
-#' @param seq A character string containing the sequence. The sequence must be composed exclusively of DNA bases (a,c,t,g)
+#' @param seq.ini A character string containing the sequence. The sequence must be composed exclusively of DNA bases (a,c,t,g)
 #' @return A dataframe containing the responsive elements located on the input sequence.
 #' @export 
 

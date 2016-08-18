@@ -2,7 +2,7 @@
 #'
 #' A dataset containing all p53 REs found by p53retreiever on a set of  253 human promoters, to be used as an exemplary dataframe to test p53retriever functionalities
 #'
-#' @format A data frame with 3062 rows and 17 variables:
+#' @format An object of class \code{data.frame} with 3062 rows and 17 variables:
 #' \itemize{
 #' \item HGNC: gene symbol (e.g. TP73)
 #' \item ID: sequence ID (e.g. uc001akp.3)
@@ -31,9 +31,68 @@
 #'
 #' A character containing the promoter sequence of CDKN1A, -10 +10 kb from TSS, to be used as an exemplary sequence to test p53retriever functionalities
 #'
-#' @format A character vector containing the 20k promoter sequence of CDKN1A
+#' @format An object of class \code{character} containing the 20k promoter sequence of CDKN1A
 #' @usage data(CDKN1A)
 #' @docType data
 #' @keywords datasets
 "CDKN1A"
 
+#' pwm.1 model matrix 
+#'
+#' pwm.1 is the half site score matrix used by p53retriever to select an initial set of RE full site candidates 
+#'
+#' @format An object of class \code{matrix}, with 4 rows and 10 columns
+#' @usage data(bkg.models)
+#' @docType data
+#' @keywords datasets
+"pwm.1"
+
+#' pwm.2 model matrix 
+#'
+#' pwm.2 is the score matrix used by p53retriever to select an initial set of RE 3/4 site candidates (3Q123)
+#'
+#' @format An object of class \code{matrix}, with 4 rows and 15 columns
+#' @usage data(bkg.models)
+#' @docType data
+#' @keywords datasets
+"pwm.2"
+
+#' pwm.3 model matrix 
+#'
+#' pwm.3 is the score matrix used by p53retriever to select an initial set of RE 3/4 site candidates (3Q234)
+#'
+#' @format An object of class \code{matrix}, with 4 rows and 15 columns
+#' @usage data(bkg.models)
+#' @docType data
+#' @keywords datasets
+"pwm.3"
+
+#' pwm.4 model matrix 
+#'
+#' pwm.4 is the score matrix used by p53retriever to select an initial set of RE 3/4 site candidates (3Q134)
+#'
+#' @format An object of class \code{matrix}, with 4 rows and 20 columns
+#' @usage data(bkg.models)
+#' @docType data
+#' @keywords datasets
+"pwm.4"
+
+#' pwm.5 model matrix 
+#'
+#' pwm.5 is the score matrix used by p53retriever to select an initial set of RE 3/4 site candidates (3Q124)
+#'
+#' @format An object of class \code{matrix}, with 4 rows and 20 columns
+#' @usage data(bkg.models)
+#' @docType data
+#' @keywords datasets
+"pwm.5"
+
+#' pwm.6 model matrix 
+#'
+#' pwm.6 is the half site score matrix used by p53retriever to select an initial set of RE half site candidates 
+#'
+#' @format An object of class \code{matrix}, with 4 rows and 10 columns
+#' @usage data(bkg.models)
+#' @docType data
+#' @keywords datasets
+"pwm.6"
