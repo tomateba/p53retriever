@@ -1,7 +1,7 @@
 # p53retriever
-===========================================================================================================================
-R package to locate and display p53 putative response elements on a DNA sequence
 
+R package to locate and display p53 putative response elements on a DNA sequence
+------------------------------------------------------------------------
 
 ### Overview
 
@@ -18,7 +18,8 @@ Toma Tebaldi, Sara Zaccara, Federica Alessandrini, Alessandra Bisio, Yari Ciribi
 Please cite the following article when using `p53retriever`:
 
 T Tebaldi, S Zaccara, F alessandrini, A Bisio, Y Ciribilli, A Inga. ***Whole-genome cartography of p53 response elements ranked on transactivation potential.*** *BMC Genomics. 2015 Jun 17;16:464*
-[![doi](https://img.shields.io/badge/DOI-10.1186%2Fs12864--015--1643--9-green.svg?style=flat)] (http://dx.doi.org/10.1186/s12864-015-1643-9)
+
+[![doi](https://img.shields.io/badge/DOI-10.1186%2Fs12864--015--1643--9-green.svg?style=flat)](http://dx.doi.org/10.1186/s12864-015-1643-9)
 
 ------------------------------------------------------------------------
 
