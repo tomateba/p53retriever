@@ -27,6 +27,16 @@ T Tebaldi, S Zaccara, F alessandrini, A Bisio, Y Ciribilli, A Inga. ***Whole-gen
 
 ------------------------------------------------------------------------
 
+### Installation
+
+To install `p53retriever`, directly from github: 
+
+    'install.packages("devtools")'
+    'library("devtools")'
+    'install_github("tomateba/p53retriever")'
+
+------------------------------------------------------------------------
+
 ### Output example
 
 p53 REs identified in the promoter region of CDKN1A (-10k, +10k from TSS)
