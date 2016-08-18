@@ -25,7 +25,7 @@ T Tebaldi, S Zaccara, F alessandrini, A Bisio, Y Ciribilli, A Inga. ***Whole-gen
 
 ### License
 
-[![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg?maxAge=2592000?style=flat)]()
+[![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg?maxAge=2592000?style=flat)](https://opensource.org/licenses/MIT)
 
 ### Output example
 
