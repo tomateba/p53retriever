@@ -1,7 +1,6 @@
 #' @title Function p53.track
 #' @param seq A character string containing the sequence. The sequence must be composed exclusively of DNA bases (a,c,t,g)
 #' @param seqname A character string containing the name of the sequence. The default is an empty string.
-#' @param plot A boolean value indicating whether the results should be displayed on a plot. The default is FALSE.
 #' @return A dataframe containing one row for each responsive elements located on the input sequence. For each element, the following infomation is provided: 
 #' #' \itemize{
 #' \item ID: sequence ID (e.g. CDKN1A)
@@ -23,7 +22,7 @@
 #' data(CDKN1A)
 #' p53track(CDKN1A,seqname="CDKN1A",plot=TRUE)
 
-p53track<-function(seq,seqname="",plot=F){
+p53track<-function(seq,seqname=""){
 
 seq.ini<-seq
 if((all(unique(unlist(strsplit(as.character(seq.ini),split="")))%in%c("a","c","g","t","A","C","G","T")))==FALSE){
@@ -63,10 +62,5 @@ if(class(complete)!="NULL"){
   p53.clean<-cbind(ID,ord.matrix)
   colnames(p53.clean)<-c("ID","start","stop","spacer","n.mismatches","sequence","mismatch.string","WW1","WW2","label","grade")
 } 
-  
-if (plot==T){
-  p53plot(p53.clean,0,nchar(seq.ini))  
-}
-
   return(p53.clean) 
 }

@@ -37,9 +37,13 @@ To install `p53retriever`, directly from github:
 
 ------------------------------------------------------------------------
 
-### Output example
+### Usage
 
-p53 REs identified in the promoter region of CDKN1A (-10k, +10k from TSS)
+This code shows how `p53retriever` can be used on the promoter sequence of CDKN1A (-10k, +10k from TSS)
+
+    data(CDKN1A)
+    hits<-p53track(CDKN1A,seqname="CDKN1A")
+    p53plot(hits,0,20000)
 
 ![p53 REs identified in the promoter of CDKN1A](https://cloud.githubusercontent.com/assets/9716233/6002270/c460ac18-aae9-11e4-8822-7f5272396634.png)
 
