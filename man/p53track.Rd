@@ -4,17 +4,15 @@
 \alias{p53track}
 \title{Function p53.track}
 \usage{
-p53track(seq, seqname = "", plot = F)
+p53track(seq, seqname = "")
 }
 \arguments{
 \item{seq}{A character string containing the sequence. The sequence must be composed exclusively of DNA bases (a,c,t,g)}
 
 \item{seqname}{A character string containing the name of the sequence. The default is an empty string.}
-
-\item{plot}{A boolean value indicating whether the results should be displayed on a plot. The default is FALSE.}
 }
 \value{
-A dataframe containing one row for each responsive elements located on the input sequence. For each element, the following infomation is provided: 
+An object of class \code{data.frame} containing one row for each responsive elements located on the input sequence. For each element, the following infomation is provided: 
 #' \itemize{
 \item ID: sequence ID (e.g. CDKN1A)
 \item start: coordinate of the RE's start with respect to the input sequence (e.g. 246)
@@ -34,6 +32,6 @@ This function locates candidate p53 responsive elements on a DNA sequence. The r
 }
 \examples{
 data(CDKN1A)
-p53track(CDKN1A,seqname="CDKN1A",plot=TRUE)
+p53track(CDKN1A,seqname="CDKN1A")
 }
 

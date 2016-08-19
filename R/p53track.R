@@ -1,7 +1,7 @@
 #' @title Function p53.track
 #' @param seq A character string containing the sequence. The sequence must be composed exclusively of DNA bases (a,c,t,g)
 #' @param seqname A character string containing the name of the sequence. The default is an empty string.
-#' @return A dataframe containing one row for each responsive elements located on the input sequence. For each element, the following infomation is provided: 
+#' @return An object of class \code{data.frame} containing one row for each responsive elements located on the input sequence. For each element, the following infomation is provided: 
 #' #' \itemize{
 #' \item ID: sequence ID (e.g. CDKN1A)
 #' \item start: coordinate of the RE's start with respect to the input sequence (e.g. 246)
@@ -20,7 +20,7 @@
 #' @description This function locates candidate p53 responsive elements on a DNA sequence. The rules formalized in this model are manually curated and based on observations obtained during several years of experiments using the yeast-based assays, including the results presented in (Inga et al, MCB 2002; Tomso et al, PNAS 2005; Jegga et al, PNAS 2008; Jordan et al, PloS Genetics 2008; Menendez et al, PNAS 2010).
 #' @examples
 #' data(CDKN1A)
-#' p53track(CDKN1A,seqname="CDKN1A",plot=TRUE)
+#' p53track(CDKN1A,seqname="CDKN1A")
 
 p53track<-function(seq,seqname=""){
 

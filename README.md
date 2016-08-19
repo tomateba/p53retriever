@@ -45,7 +45,7 @@ This code shows how `p53retriever` can be used on the promoter sequence of CDKN1
     hits<-p53track(CDKN1A,seqname="CDKN1A")
     p53plot(hits,0,20000)
 
-![p53 REs identified in the promoter of CDKN1A](https://cloud.githubusercontent.com/assets/9716233/6002270/c460ac18-aae9-11e4-8822-7f5272396634.png)
+![p53 REs identified in the promoter of CDKN1A](https://cloud.githubusercontent.com/assets/9716233/17807545/a5da635e-660b-11e6-9fc3-3c4590d642f9.png)
 
 ------------------------------------------------------------------------
 

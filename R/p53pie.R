@@ -1,16 +1,18 @@
 #' Plot a pie chart of the grades assigned to responsive elements on a DNA sequence
 #' 
-#'@param p53.table A dataframe containing the responsive elements, as the one returned from the p53.track function. 
+#'@param p53.table A dataframe containing the responsive elements, as the one returned from the p53track function. 
 #'@param start.at A numeric value indicating the start coordinate of the site in order to be considered
 #'@param stop.at A numeric value indicating the stop coordinate start coordinate of the site in order to be considered
-#'@return pp an object of class ggplot
+#'@return an object of class \code{ggplot}
 #'@examples
 #'data(RE_collection)
 #'p53pie(RE_collection,-10000,10000)
 #'@import ggplot2
 #'@export
 
-p53pie<-function(p53.table,start.at,stop.at){
+p53pie<-function(p53.table,
+                 start.at,
+                 stop.at){
 
   p53.table<-p53.table[which(p53.table$start>start.at & p53.table$stop<stop.at),]
   p53.table$grade<-factor(p53.table$grade,levels=c("1","2","3","4","5"))

@@ -1,9 +1,9 @@
 #' Plot the density chart of responsive elements on a DNA sequence
 #' 
-#'@param p53.table A dataframe containing the responsive elements, as the one returned from the p53.track function. 
+#'@param p53.table A dataframe containing the responsive elements, as the one returned from the p53track function. 
 #'@param start.at A numeric value indicating the start coordinate of the plot 
 #'@param stop.at A numeric value indicating the stop coordinate of the plot
-#'@return dp an object of class ggplot
+#'@return an object of class \code{ggplot}
 #'@examples
 #'data(RE_collection)
 #'p53density(RE_collection,-10000,10000)

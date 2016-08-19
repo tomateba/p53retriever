@@ -7,21 +7,21 @@
 p53plot(p53.table, start.at, stop.at)
 }
 \arguments{
-\item{p53.table}{A dataframe containing the responsive elements, as the one returned from the p53.track function.}
+\item{p53.table}{A dataframe containing the responsive elements, as the one returned from the p53track function.}
 
 \item{start.at}{A numeric value indicating the start coordinate of the plot}
 
 \item{stop.at}{A numeric value indicating the stop coordinate of the plot}
 }
 \value{
-bp an object of class ggplot
+an object of class \code{ggplot}
 }
 \description{
 Plot the position p53 responsive elements on a DNA sequence (the mark is placed at the beginning of the responsive element)
 }
 \examples{
 data(CDKN1A)
-hits<-p53track(CDKN1A,seqname="CDKN1A",plot=FALSE)
+hits<-p53track(CDKN1A,seqname="CDKN1A")
 p53plot(hits,0,20000)
 }
 

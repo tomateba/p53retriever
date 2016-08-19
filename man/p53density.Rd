@@ -7,14 +7,14 @@
 p53density(p53.table, start.at, stop.at)
 }
 \arguments{
-\item{p53.table}{A dataframe containing the responsive elements, as the one returned from the p53.track function.}
+\item{p53.table}{A dataframe containing the responsive elements, as the one returned from the p53track function.}
 
 \item{start.at}{A numeric value indicating the start coordinate of the plot}
 
 \item{stop.at}{A numeric value indicating the stop coordinate of the plot}
 }
 \value{
-dp an object of class ggplot
+an object of class \code{ggplot}
 }
 \description{
 Plot the density chart of responsive elements on a DNA sequence
