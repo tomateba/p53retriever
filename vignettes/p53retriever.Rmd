@@ -21,6 +21,11 @@ Please cite the following article when using `p53retriever`:
 
 T Tebaldi, S Zaccara, F alessandrini, A Bisio, Y Ciribilli, A Inga. ***Whole-genome cartography of p53 response elements ranked on transactivation potential.*** *BMC Genomics. 2015 Jun 17;16:464*
 
+```{r, out.width = 680, fig.retina = NULL,echo =FALSE}
+knitr::include_graphics("score_schema.png")
+```
+*p53retriever grade rules*
+
 ## Installation
 
 To install `p53retriever`, directly from github: 
@@ -33,9 +38,13 @@ To install `p53retriever`, directly from github:
 
 This code shows how `p53retriever` can be used on the promoter sequence of CDKN1A (-10k, +10k from TSS)
 
-    data(CDKN1A)
-    hits<-p53track(CDKN1A,seqname="CDKN1A")
-    p53plot(hits,0,20000)
-
-
+```
+library(p53retriever)
+data(CDKN1A)
+hits<-p53track(CDKN1A,seqname="CDKN1A")
+p53plot(hits,0,20000)
+```
+```{r, out.width = 680, fig.retina = NULL,echo =FALSE}
+knitr::include_graphics("promoter.png")
+```
 
