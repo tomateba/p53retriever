@@ -30,7 +30,7 @@ T Tebaldi, S Zaccara, F alessandrini, A Bisio, Y Ciribilli, A Inga. ***Whole-gen
 ### Installation
 
 To install `p53retriever`, directly from github: 
-
+    
     install.packages("devtools")
     library("devtools")
     install_github("tomateba/p53retriever")
@@ -41,6 +41,7 @@ To install `p53retriever`, directly from github:
 
 This code shows how `p53retriever` can be used on the promoter sequence of CDKN1A (-10k, +10k from TSS)
 
+    library("p53retriever")
     data(CDKN1A)
     hits<-p53track(CDKN1A,seqname="CDKN1A")
     p53plot(hits,0,20000)
