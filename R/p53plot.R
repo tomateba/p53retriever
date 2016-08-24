@@ -29,6 +29,3 @@ p53plot<-function(p53.table,start.at,stop.at){
   bp
   return(bp)
 }
-
-#bp2<-bp+geom_vline(xintercept=10000,linetype=2,alpha=0.75,size=bs*0.02,colour="grey30")
-#save_plot("cdkn1a.pdf", bp2, base_height = 3.2, base_aspect_ratio=3)
